@@ -1,0 +1,10 @@
+a = "hello,world,5"
+print (len(a))
+print (a.lower())
+print (a.upper())
+b = a.replace('h', 'y')
+print(b)
+d = a.split(',')
+print(d)
+e = int(d[2])
+print (e*5)
